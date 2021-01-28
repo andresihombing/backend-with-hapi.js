@@ -1,0 +1,19 @@
+{
+  "name": "backend-with-hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andre sihombing",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "hapi-knex-postgres": "^0.1.2",
+    "knex": "^0.21.16",
+    "pg": "^8.5.1"
+  }
+}
